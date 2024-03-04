@@ -27,7 +27,7 @@ class JobFibonacciWithTimeoutActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val job = GlobalScope.launch(Dispatchers.Default) {
+        GlobalScope.launch(Dispatchers.Default) {
             Log.d(TAG, "Starting long running calculation...")
 
             /**
