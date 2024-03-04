@@ -13,7 +13,7 @@
         android:theme="@style/Theme.FirstCorountineKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".SuspendFunctionsActivity"
+            android:name=".CorountineContextActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.FirstCorountineKotlin">
